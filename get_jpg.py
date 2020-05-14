@@ -15,7 +15,7 @@ resp = resp['page_list_h']
 print(resp)
 
 #print(len(resp))
-path = 'D:\Code\Python_project\get_pdf\img\\'
+path = '.\img\\'
 
 def save_file(path, file_name, data):
     file = open(path + file_name, "wb")
